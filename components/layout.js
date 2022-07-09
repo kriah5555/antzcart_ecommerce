@@ -4,7 +4,7 @@ import Link from 'next/link'
 import { Store } from '../utils/store';
 
 export default function Layout({title, children}) {
-    const { state, dispatch } = useContext(Store);
+    const { state } = useContext(Store);
     const { cart } = state;
   return (
     <>
@@ -21,13 +21,14 @@ export default function Layout({title, children}) {
                             <a className='text-lg font-bold'>AntzCart</a>
                         </Link>
                         <dev>
-                            <Link href='/cart'><a className='p-2'>Cart
+                            <Link href='/cart'>
+                                <a className='p-2'>Cart
                                 {cart.cartItems.length > 0 && (
                                     <span className='ml-1 rounded-full bg-red-600 px-2 py-1 text-xs font-bold text-white'>
                                         {cart.cartItems.reduce((a,c) => a + c.quantity, 0)}
                                     </span>
                                 )}
-                            </a></Link>
+                                </a></Link>
                             <Link href='/login'><a className='p-2'>Login</a></Link>
                         </dev>
                     </nav>
