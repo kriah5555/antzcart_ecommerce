@@ -7,3 +7,19 @@ npm install -D @types/react
 
 npm install @heroicons/react  -> for icons
 npm install js-cookie
+
+1. tailwind css 
+    https://tailwindcss.com/docs/guides/nextjs
+2. npm install react-icons --save --> for react icons https://react-icons.github.io/react-icons/
+
+3. npm i json-server --> for dummy data in db.json folder can create local server for data --> https://www.npmjs.com/package/json-server
+
+<!-- slideshow  -->
+npm i react-responsive-carousel
+
+
+
+
+4. npm install keen-slider --> for Sliders --> https://keen-slider.io/
+
+5. https://codesandbox.io/s/js6dz?file=/pages/index.js:0-4132 --> slideshow link
