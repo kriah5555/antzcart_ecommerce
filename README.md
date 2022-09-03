@@ -14,4 +14,4 @@ npm install js-cookie
 
 3. npm i json-server --> for dummy data in db.json folder can create local server for data --> https://www.npmjs.com/package/json-server
 
-4. npm install react-icons/fa --> for google fb icons
+4. icom --> https://react-icons.github.io/react-icons/
