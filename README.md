@@ -14,12 +14,4 @@ npm install js-cookie
 
 3. npm i json-server --> for dummy data in db.json folder can create local server for data --> https://www.npmjs.com/package/json-server
 
-<!-- slideshow  -->
-npm i react-responsive-carousel
-
-
-
-
-4. npm install keen-slider --> for Sliders --> https://keen-slider.io/
-
-5. https://codesandbox.io/s/js6dz?file=/pages/index.js:0-4132 --> slideshow link
+4. install npm install react-icons/fa --> for google fb icons
