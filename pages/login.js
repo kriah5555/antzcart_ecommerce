@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/Login.module.css'
-// import { FaFacebook, FaLinkedin, FaGoogle, FaRegEnvelope} from "react-icons/fa";
-// import { MdLockOutline } from "react-icons/md";
+import { FaFacebook, FaLinkedin, FaGoogle, FaRegEnvelope} from "react-icons/fa";
+import { MdLockOutline } from "react-icons/md";
 
 export default function Home() {
   return (
@@ -24,24 +24,24 @@ export default function Home() {
               <div className='border-2 w-10 border-green-500 inline-block mb-2 rounded'></div>
               <div className='flex justify-center my-2'>
                 <a href='#' className='border-2 border-white-200 rounded-full p-3 mx-1'>
-                  {/* <FaFacebook className='text-sm'> </FaFacebook> */}
+                  <FaFacebook className='text-sm'> </FaFacebook>
                 </a>
                 <a href='#' className='border-2 border-white-200 rounded-full p-3 mx-1'>
-                  {/* <FaLinkedin className='text-sm'> </FaLinkedin> */}
+                  <FaLinkedin className='text-sm'> </FaLinkedin>
                 </a>
                 <a href='#' className='border-2 border-white-200 rounded-full p-3 mx-1'>
-                  {/* <FaGoogle className='text-sm'> </FaGoogle> */}
+                  <FaGoogle className='text-sm'> </FaGoogle>
                 </a>
               </div>
             </div> {/* social login section*/}
             <p className='text-gray-600-400 my-3'>or use your email account</p>
             <div className='flex flex-col items-center'>
               <div className='bg-gray-300 w-64 p-2 flex items-center mb-3'>
-                {/* <FaRegEnvelope className='text-grey-300 m-2'></FaRegEnvelope> */}
+                <FaRegEnvelope className='text-grey-300 m-2'></FaRegEnvelope>
                 <input type="email" name="email" placeholder="Email" className='bg-gray-300 outline-none test-sm flex-1'></input>
               </div>
               <div className='bg-gray-300 w-64 p-2 flex items-center'>
-                {/* <MdLockOutline className='text-grey-300 m-2'></MdLockOutline> */}
+                <MdLockOutline className='text-grey-300 m-2'></MdLockOutline>
                 <input type="password" name="password" placeholder="Password" className='bg-gray-300 outline-none test-sm flex-1'></input>
               </div>
               <div className='flex w-64 mb-5 justify-between'>
